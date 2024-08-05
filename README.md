@@ -42,9 +42,10 @@ Este curso consiste em cinco módulos que podem ser completados em menos de 30 m
     - Inspetor de série temporal e controle deslizante de tempo
     - Exercício: visualizando séries temporais de precipitação e dados de vegetação
 - **Módulo 3**: Criação de animações de timelapse
-    - Índices de vegetação MODIS
-    - Dados de temperatura MODIS
-    - Dados do satélite GOES
+    - Estrutura de um timelapse
+    - Timelapse do Landsat
+    - Timelapse do Índice de Vegetação do MODIS
+    - Timelapse do Sentinel
     - Exercício: criando animações de timelapse
 - **Módulo 4**: Monitoramento de seca
     - Explorando conjuntos de dados de seca
