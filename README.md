@@ -62,7 +62,9 @@ O curso consiste em cinco módulos que podem ser completados em menos de 30 minu
     - Cálculo do Índice de Precipitação Padronizado (SPI)
     - Exercício: calculando o SPI para uma região selecionada
 
-Sinta-se livre para solicitar um *pull request* se você encontrar algum problema, e também se tiver alguma sugestão. Se você tiver dúvidas sobre o material contido aqui, pode escrever para [andrebelem@id.uff.br](andrebelem@id.uff.br). Se você quiser contribuir para divulgação do curso, basta fazer uma referência ao [DOI: 10.5281/zenodo.13237529](https://doi.org/10.5281/zenodo.13237529).
+Sinta-se livre para solicitar um *pull request* se você encontrar algum problema, e também se tiver alguma sugestão. Se você tiver dúvidas sobre o material contido aqui, pode escrever para [andrebelem@id.uff.br](andrebelem@id.uff.br). Se você quiser contribuir para divulgação do curso, basta fazer uma referência ao [DOI: 10.5281/zenodo.13237529](https://doi.org/10.5281/zenodo.13237529) ou citar
+
+> Belem, Andre L. (2024, August 6). *Curso Básico de Geemap usando Google Colab* (https://github.com/andrebelem/Curso_Basico_Geemap). Zenodo. https://doi.org/10.5281/zenodo.13237529
 
 <p align="center">
   <img src="https://github.com/andrebelem/Curso_Basico_Geemap/blob/main/screenshots/100_Good_Python_GEE.jpg" alt="Good Python GEE" height="200px">
