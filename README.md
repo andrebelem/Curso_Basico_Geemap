@@ -1,5 +1,7 @@
 # Curso Básico de Google Earth Engine no Python (usando o Google Colab)
 
+![](./screenshots/05_Uso_do_solo_RJ.jpg)
+
 Este curso é baseado **INTEGRALMENTE** desenvolvido para iniciantes, usando o [Google Colab](https://colab.research.google.com/), e o poder do Google Earth Engine. Ele foi desenvolvido com base no trabalho do prof. [Qiusheng Wu](https://github.com/giswqs), originalmente publicado no [workshop SatMOC 2024](https://geemap.org/workshops/SatMOC_2024) usando o [Google Earth Engine](https://earthengine.google.com) e o [`Geemap`](https://geemap.org), mas fortemente adaptados à *realidade brasileira*, em especial, alguns aspectos locais do sudeste do Brasil. Caso você deseje, os notebooks deste curso podem ser usados integralmente em uma *environment* preparada com o `geemap` e o `ee`, e considera que você já tem o seu projeto definido no [Console do Google Cloud](https://console.cloud.google.com/). Um pouco adiante vamos apontar para os requisitos básicos para você rodar os notebooks. Porém, os passos de instalação local não são cobertos por este curso.<br>
 
 **Nota importante 1**: Por conta da renderização dos notebooks no github, você não verá nenhum mapa aqui. Eles aparecem apenas quando você abre e executa os notebooks no seu ambiente.
