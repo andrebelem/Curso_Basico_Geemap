@@ -1,5 +1,5 @@
 # Curso Básico de Google Earth Engine no Python (usando o Google Colab)
-
+![](https://zenodo.org/badge/DOI/10.5281/zenodo.13237529.svg)
 <p align="center">
   <img src="./screenshots/05_Uso_do_solo_RJ.jpg" alt="Uso do Solo RJ" width="400px">
 </p>
