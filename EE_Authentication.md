@@ -6,19 +6,29 @@ import ee
 ee.Authenticate()
 ```
 Depois de executar o script acima, uma nova aba será aberta no navegador pedindo que você faça login na sua conta do Earth Engine (note que o seu login gmail funciona !). Após o login, você será solicitado a autorizar o Google Earth Engine Authenticator. Se esta for a primeira vez que você está autenticando o Earth Engine, clique em ESCOLHER PROJETO para selecionar um projeto na nuvem a ser usado pelo Earth Engine (Figura 1 abaixo).<br>
-<center>![Figura 1](./screenshots/Fig01_Autenticando_EE.jpg))</center>
+<p align="center">
+  <img src="./screenshots/Fig01_Autenticando_EE.jpg" alt="Figura 1">
+</p>
 
 Você pode escolher um projeto na nuvem existente ou criar um novo. Se optar por criar um novo projeto na nuvem, insira um nome para o projeto, por exemplo, **ee-seu-nome-de-usuario**, e clique no botão azul **SELECIONAR** para criar um novo projeto na nuvem. Se aparecer uma mensagem de aviso em vermelho na parte inferior da página, clique no link dos Termos de Serviço da Nuvem para aceitar os termos de serviço e, em seguida, clique no botão **SELECIONAR** novamente (veja a Figura 2 abaixo).<br>
-<center>![Figura 2](./screenshots/Fig02_Autenticando_EE.jpg)</center>
+<p align="center">
+  <img src="./screenshots/Fig02_Autenticando_EE.jpg" alt="Figura 2">
+</p>
 
 Após selecionar um projeto na nuvem, clique no botão **GERAR TOKEN** para gerar um novo token. Você será solicitado a escolher sua conta do Earth Engine para o Notebook Client (Figura 3, abaixo).<br>
-<center>![Figura 3](./screenshots/Fig03_Autenticando_EE.jpg)</center>
+<p align="center">
+  <img src="./screenshots/Fig03_Autenticando_EE.jpg" alt="Figura 3">
+</p>
 
 Clique no botão **Permitir** para permitir que o Notebook Client acesse sua conta do Earth Engine (Figura 4, abaixo).<br>
-<center>![Figura 4](./screenshots/Fig04_Autenticando_EE.jpg)</center>
+<p align="center">
+  <img src="./screenshots/Fig04_Autenticando_EE.jpg" alt="Figura 4">
+</p>
 
 Um código de autenticação será gerado e exibido na página. Copie o código de autorização e cole-o na célula do notebook que solicita o código de verificação. Pressione Enter, e a mensagem **Token de autorização salvo com sucesso** deverá aparecer abaixo do código de autorização que você inseriu (Figura 5).<br>
-<center>![Figura 5](./screenshots/Fig05_Autenticando_EE.jpg)</center>
+<p align="center">
+  <img src="./screenshots/Fig05_Autenticando_EE.jpg" alt="Figura 5">
+</p>
 
 Parabéns! Você autenticou com sucesso o Earth Engine para uso em seu notebook Jupyter. Em geral, a autenticação para instalações locais é uma etapa única que gera um token de autorização persistente armazenado em um computador local. O token pode ser encontrado no seguinte caminho de arquivo, dependendo do seu sistema operacional. Observe que você pode precisar mostrar os diretórios ocultos no seu computador para ver a pasta `**.config**` no diretório inicial.
 ```
@@ -39,6 +49,8 @@ O Google Colab permite que você grave a sua token associada à sua conta, de fo
 - Crie um novo segredo com o nome **EARTHENGINE_TOKEN**.
 - Cole o conteúdo da área de transferência na caixa de entrada de **Valor** do segredo criado.
 - Ative o botão à esquerda para permitir que o notebook acesse o segredo.<br>
-<center>![Figura 6](./screenshots/Fig06_Autenticando_EE.png))</center>
+<p align="center">
+  <img src="./screenshots/Fig06_Autenticando_EE.jpg" alt="Figura 6">
+</p>
 
 Pronto ! Se você seguiu todos esses passos, já está pronto para usar o GEE.
